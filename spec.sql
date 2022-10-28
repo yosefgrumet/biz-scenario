@@ -1,10 +1,10 @@
 /*
-Hi, I run a Kitchen installation company called Kool Kitchens.
+Hi, I run a Kitchen installation company called Presidential Kitchens.
 We give quotes and then hope that the customer finds the price favorable and goes through with the order with us.
 Sometimes they price it out with other companies and never get back to us and just leave it in our system as a quote.
 We are going through our books from the fiscal year 2021 but due to all the quotes Our books are in total disaray, 
 we need a system that will show us what got left as a quote and which customers
-went through with the plan and the total price for what they ordered.
+went through with the plan and if it was delivered yet or if its still a processing order and the total price for what they ordered.
 We price out the cabinets, counters and installation and then add them all together to give a final price, 
 but some clients only want cabinets with either counters or installation.
 We are currently only using Fabuwood Cabinetry do to the fact that their website is the easiest to use.
@@ -31,7 +31,7 @@ presidents with a 'J' in their last name only priced cabinets, with a 'W' got ca
 
 we need a list that will show: 
 first name, middle name, last name, quote date, number of cabinets needed, cabinet type, cost for cabinets,
-kitchen square footage, cost for counters, cost for installation, total cost, order date, delivery date, quote or order
+kitchen square footage, cost for counters, cost for installation, total cost, order date, delivery date, quote order or delivered
 
 Q: Do you need times or just dates?
 A:We don't need to record time. Just a date is enough
@@ -46,12 +46,16 @@ Q: does it ever take time to send back a quote?
 A: no, we pride ourself that we send back the quote on the day it was sent in for pricing
 
 Q: What should i put in if it wasnt delived yet?
-A: put it in as if it was delivered on that day in the future, Fabuwood never delays their shipping dates
+A: enter the current date because it is always delivered that day, but leave it in the system as an order not as delivered
 
 Reports:
 1) list which type of cabinets was the most popular every month in 2021, order by most popular and how many of each type were sold that month
 2) what was the total monetary sum of each category of cabinets sold in 2021 
 3) how many square feet of kitchens did we price total?
 4) we get the counters for $30 and mark it up, how much did we make extra selling counters?
+
+Sample Data:
+
+Donald, J, Trump, 10/27/2021, 58, Nexus frost, $7000, 60, $2000, $1860, $10860, 11/15/2021, 12/25/2021, delivered 
 
 */
