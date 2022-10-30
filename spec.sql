@@ -16,23 +16,6 @@ we offer one of three cabinets to choose from,
 For installation we charge $40 a square foot
 and $45 a square foot for countertops.
 
-Use the president table for sample data:
-
-Technical Note: To select from a table in a database other than the one you are working in, prefix the source table with the database name and dbo like this:
---select * from RecordKeeperDB.dbo.president
-
-If the president was a democrat they got Galaxy frost, republicans got Nexus frost everyone else got discovery frost.
-the client needs the same amount of cabinets as their age when elected president.
-the square footage of the job is the age of the president when they left office minus the number president that they were, if still in office use current age.
-everyone requested a quote and recieved it a week before thier birthday in 2021. 
-if the president didnt end their term or has a middle name, they didnt end up ordering with us and leftit as an open quote,
-everyone else ordered and placed the order on their birthday in the year 2021 and had it delivered a year later.
-presidents with a 'J' in their last name only priced cabinets, with a 'W' got cabinets and installation everyone else got cabinets installation and installation.
-
-we need a list that will show: 
-first name, middle name, last name, quote date, number of cabinets needed, cabinet type, cost for cabinets,
-kitchen square footage, cost for counters, cost for installation, total cost, order date, delivery date, quote order or delivered
-
 Q: Do you need times or just dates?
 A:We don't need to record time. Just a date is enough
 
@@ -54,8 +37,33 @@ Reports:
 3) how many square feet of kitchens did we price total?
 4) we get the counters for $30 and mark it up, how much did we make extra selling counters?
 
+we need a list that will show: 
+first name, middle name, last name, quote date, number of cabinets needed, cabinet type, cost for cabinets,
+kitchen square footage, cost for counters, cost for installation, total cost, order date, delivery date, quote order or delivered
+
 Sample Data:
 
-Donald, J, Trump, 10/27/2021, 58, Nexus frost, $7000, 60, $2000, $1860, $10860, 11/15/2021, 12/25/2021, delivered 
+Hillary, R, Clinton, 10/19/2021, 40, Discovery frost, $4000, 50, $2250, $2000, $8250, 10/26/2021, 10/26/2022, delivered 
+Mitt, null, Romney, 06/6/2021, 55, Nexus frost, $8250, 70, $3150, $2800, $14200, 06/12/2021, 06/12/2022, delivered 
+John, null, McCain, 08/22/2021, 43, Galaxy frost, $5375, 55, null, $2200, $55, 08/29/2021, 08/29/2022, delivered 
+John, null, Kerry, 12/05/2021, 70, Discovery frost, $7000, 80, $3600, $3200, $13800, 12/11/2021, 12/11/2022, ordered 
+Al,  null, Gore, 06/24/2021, 30, Discovery frost, $3000, 42, null, null, $3000, null, null, quote 
+Bob, null, Dole, 07/15/2021, 20, Galaxy frost, $2500, 30, $1350, $1200, $5050, null, null, quote 
+Thomas, E, Dewey, 12/10/2021, 64, Nexus frost, $9600, 74, null, $2960, $12560, 12/17/2021, 12/17/2022, ordered 
+Ron, null, DeSantis, 09/07/2021, 95, Nexus frost, $14250, 105, $4725, $4200, $23175, 09/14/2021, 09/14/2022, delivered 
+
+adding additional data from the president table will be extra credit:
+
+Technical Note: To select from a table in a database other than the one you are working in, prefix the source table with the database name and dbo like this:
+--select * from RecordKeeperDB.dbo.president
+
+If the president was a democrat they got Galaxy frost, republicans got Nexus frost everyone else got discovery frost.
+the client needs the same amount of cabinets as their age when elected president.
+the square footage of the job is the age of the president when they left office minus the number president that they were, if still in office use current age.
+everyone requested a quote and recieved it a week before thier birthday in 2021. 
+if the president didnt end their term or has a middle name, they didnt end up ordering with us and leftit as an open quote,
+everyone else ordered and placed the order on their birthday in the year 2021 and had it delivered a year later.
+presidents with a 'J' in their last name only priced cabinets, with a 'W' got cabinets and installation everyone else got cabinets installation and installation.
+
 
 */
