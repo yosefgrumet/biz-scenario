@@ -22,12 +22,7 @@ A:We don't need to record time. Just a date is enough
 Q: Does anyone ever order just counters?
 A: No, we really just do cabinets if need be we help and order counters but our primary job is cabinets
 
-Q: Do you ever give discounts?
-A: Yes for Rabbis, but i dont think we had any order kitchens in the year 2021
-
-Q: does it ever take time to send back a quote?
-A: no, we pride ourself that we send back the quote on the day it was sent in for pricing
-
+                                                   
 Q: What should i put in if it wasnt delived yet?
 A: enter the current date because it is always delivered that day, but leave it in the system as an order not as delivered
 
